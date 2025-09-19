@@ -61,19 +61,19 @@ const ContactPage = () => {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["123 Eco Street", "Green Valley, Karnataka 560001", "India"],
+      details: ["Kandlakoya" ,"Medchal ","501401","Telengana","India"],
       color: "text-green-600"
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+91 98765 43210", "+91 98765 43211"],
+      details: ["+91 90003 58404","+91 93928 04718"],
       color: "text-blue-600"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["hello@karesave.com", "support@karesave.com"],
+      details: ["singarajukotesh@gmail.com", "lohithkumarbellana@gmail.com"],
       color: "text-purple-600"
     },
     {
@@ -129,7 +129,19 @@ const ContactPage = () => {
                     </CardContent>
                   </Card>
                 ))}
-              </div>
+              <Card className="border-0 shadow-soft">
+        <CardContent className="p-6">
+          <h3 className="font-semibold mb-4">Our Team</h3>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li><span className="font-medium text-foreground">Siva Kotesh Singaraju</span> – Founder & CEO</li>
+            <li><span className="font-medium text-foreground">Lohith</span> – Operations Manager</li>
+            <li><span className="font-medium text-foreground">Bhavana</span> – Advisor</li>
+          </ul>
+        </CardContent>
+      </Card>
+    </div>
+
+              
 
               {/* Social Links */}
               <div className="mt-8">
